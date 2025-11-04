@@ -1,0 +1,12 @@
+{
+    "name": "oracledb-metadata",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Oracle metadata access sample",
+    "keywords": [
+      "oracle"
+    ],
+    "dependencies": {
+      "oracledb": "latest"
+    }
+}
