@@ -1,6 +1,6 @@
 # A simple Apache mod_autoindex browser
 
-This is an example of using Apache [mod_autoindex] feature and a static home page to provide a simple development artifact repository.
+This is an example of using Apache [mod_autoindex] feature and a static home page to provide a simple <a href="https://devrepo.iqbserve.de/" title="IQBServe Artifact Repository">development artifact repository</a>.
 
 ### Apache directives to config - mod_autoindex
 Prerequisite:
