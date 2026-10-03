@@ -1,9 +1,10 @@
 # A public Snippets Repository 
 Various code snippets and examples - for illustrative or testing purposes
 
-### Description
-* <a href="https://github.com/iqbserve/snippets/tree/master/org.isa.snip.OracleMetaData">org.isa.snip.OracleMetaData</a> - Java sample accessing Oracle DB DDL Metadata
-* <a href="https://github.com/iqbserve/snippets/tree/master/org.isa.snip.nodejs.oracledb-metadata">isa.snip.nodejs.oracledb-metadata</a> - Node JS sample accessing Oracle DB Metadata from JavaScript using <a href="https://github.com/oracle/node-oracledb">Node Oracle DB Driver Module</a>
+### Snippet list
+- Java sample accessing Oracle DB DDL Metadata <br> <a href="https://github.com/iqbserve/snippets/tree/master/org.isa.snip.OracleMetaData">org.isa.snip.OracleMetaData</a>
+- Node JS sample accessing Oracle DB Metadata from JavaScript <br> <a href="https://github.com/iqbserve/snippets/tree/master/org.isa.snip.nodejs.oracledb-metadata">isa.snip.nodejs.oracledb-metadata</a> - using <a href="https://github.com/oracle/node-oracledb">Node Oracle DB Driver Module</a>
+- Web page sample for a simple Apache [mod_autoindex] artifact browser <br> <a href="https://github.com/iqbserve/snippets/tree/master/apache-mod-autoindex-devrepo">apache-mod-autoindex-devrepo</a>
 
 <br />
 

@@ -1,0 +1,8 @@
+<footer>
+</footer>
+
+<script>
+    let titleElem = document.getElementById("indextitle");
+    let parts = titleElem.innerText.split("Index of");
+    titleElem.innerHTML = `<a class='root-link'  href='/' title='Go to the Repository home'>home</a><span>${': ' + parts[1]}</span>`;
+</script>

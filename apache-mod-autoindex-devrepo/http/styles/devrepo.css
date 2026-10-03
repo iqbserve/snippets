@@ -1,0 +1,101 @@
+@import url("devrepo-base.css");
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+    background: transparent;
+    font-family: var(--standardFont);
+    font-weight: 100;
+    color: var(--text-gray);
+    overflow: hidden;
+    user-select: none;
+}
+
+main {
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex: 1;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+footer {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 25px;
+    font-size: 12px;
+    background-color: var(--statusline-bg);
+    width: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+.github-link {
+    color: var(--link-dark-blue);
+}
+
+.github-link:hover {
+    color: var(--link-light-blue);
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header-logo {
+    margin-top: 20px;
+}
+
+.info-box {
+    margin-bottom: 20px;
+}
+
+.link-box {
+    margin-top: 20px;
+    display: flex;
+    font-size: 16px;
+}
+
+.link-list {
+    margin-block-start: 0;
+    text-align: left;
+    list-style-type: none;
+    padding-inline-start: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+s-icon {
+    display: inline-block;
+}
+
+s-icon[iconname="download"] {
+    width: 20px;
+    height: 20px;
+    transform: translateY(3px);
+    margin-right: 10px;
+    color: var(--link-light-blue);
+}
+
+s-icon[iconname="github"] {
+    width: 16px;
+    height: 16px;
+}

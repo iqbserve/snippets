@@ -1,0 +1,32 @@
+@import url("devrepo-base.css");
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    background: transparent;
+    margin: 40px 40px 40px 40px;
+    font-family: var(--standardFont);
+    font-size: 14px;
+
+    font-weight: 300;
+    color: var(--text-gray);
+
+}
+
+.root-link {
+    font-size: 18px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+th {
+    font-weight: 400;
+}
+
+tr[class="indexhead"] {
+    text-align: left;
+}

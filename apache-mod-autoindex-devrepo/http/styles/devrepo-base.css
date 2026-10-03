@@ -1,0 +1,48 @@
+:root {
+    --standardFont: "Open Sans", Helvetica, Arial, sans-serif;
+    --image-site-bg:  rgba(0, 0, 0, 0.8);
+
+    --accent-dark-blue: #0054a8;
+    --accent-light-blue: #1f6feb;
+    --accent-blue: var(--accent-light-blue);
+    --link-light-blue: #4493f8;
+    --link-dark-blue: #0054a8;
+    --info-light-green: #32cd32;
+    --ctrl-border-focus: #0054a8;
+
+    --site-bg: #1e1e1e;
+    --border-gray: #6c6c6c;
+    --workarea-bg: #1e1e1e;
+    --statusline-bg: #292828;
+    --text-gray: #c3c3c3;
+    --text-light-gray: #f8f8f8;
+    --text-dark-gray: var(--border-gray);
+    --work-view-header-bg: #292828;
+
+    --header-bg: #292828;
+    --border-gray: #6c6c6c;
+
+    --tbl-header-bg: var(--work-view-header-bg);
+    --tbl-border: var(--border-gray);
+    --tbl-row-hover-bg: #3f3f3f;
+    --tbl-row-hover-border: var(--ctrl-border-focus);
+
+    --scrollbar-thumb-fg: var(--header-bg);
+    --scrollbar-track-bg: var(--border-gray);
+}
+
+html {
+    min-height: 100%;
+    margin: 0;
+    background: url("../assets/bgi-coding.jpg") center center / cover no-repeat fixed;
+    background-color: var(--image-site-bg);
+    background-blend-mode: darken;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: var(--link-light-blue);
+}

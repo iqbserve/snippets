@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>IQBServe Artifact Repository</title>
+    <link rel="preload" href="assets/bgi-coding.jpg" as="image">
+    <link rel="stylesheet" href="styles/devrepo.css">
+</head>
+
+<script src="./web-components.js"></script>
+
+<body>
+    <main>
+        <div class="header">IQBServe Artifact Repository</div>
+        <a class="header-logo" href="https://devrepo.iqbserve.de/iqb">
+            <img src="assets/iqb-logo.png" title="Browse the Repository Tree" alt="iqb-logo.png" width="64"
+                height="64" />
+        </a>
+        <div class="info-box">
+            <p>a simple development repository for demo projects</p>
+            <div class="link-box">
+                <span style="margin-top: 5px;">Distribution links:</span>
+                <ul class="link-list">
+                    <li><a title="Download - Jamn JPSApp Zip-file distribution"
+                            href="https://devrepo.iqbserve.de/iqb/distribution/jamn-JPSApp-0.0.1-SNAPSHOT.zip" download>
+                            <s-icon iconname="download"></s-icon>
+                            JPSApp-0.0.1-SNAPSHOT (Zip-file)</a></li>
+                    <li><a title="Download - Extension pom.xml startup template"
+                            href="https://devrepo.iqbserve.de/iqb/distribution/extension-project-startup.pom.xml"
+                            download><s-icon iconname="download"></s-icon>
+                            Extension pom.xml startup template</a></li>
+                    <li style="margin-top: 20px;"><a style="text-decoration: underline;"
+                            title="Browse the Repository Tree" href="https://devrepo.iqbserve.de/iqb">
+                            Browse Repository</a></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <span id="footer-info"></span>
+        <a class="github-link" title="GitHub project repository" href="https://github.com/iqbserve/JamnJPSApp">
+            <s-icon iconname="github"></s-icon </a>
+    </footer>
+
+    <script>
+        document.getElementById("footer-info").innerHTML = "© 2006 - " + new Date().getFullYear() + " by IQB Services";
+    </script>
+</body>
+
+</html>
